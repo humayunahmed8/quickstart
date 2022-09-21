@@ -1,0 +1,97 @@
+/*======= Common =======*/
+:root {
+    @each $color, $value in $colors {
+        --#{$color}: #{$value};
+    }
+
+    @each $family, $value in $font-family {
+        --#{$family}: #{$value};
+    }
+}
+
+body {
+    color: $color-body;
+    font-family: $font-poppins;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-poppins;
+    font-weight: 700;
+    line-height: 1.5;
+    color: $color-body;
+    margin: 0px;
+
+    a {
+        color: $color-body;
+    }
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+p {
+    margin: 0px;
+}
+
+a {
+    display: inline-block;
+    transition: all 0.3s ease-out 0s;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+a,
+span {
+    display: inline-block;
+}
+
+/*======= Common Classes =======*/
+
+.slick-slide img {
+    display: inline-block;
+}
+.rounded-15 {
+    border-radius: 15px;
+}
+.border-soft-white {
+    border: 1px solid $color-soft-white;
+}
+.shadow-none {
+    box-shadow: none;
+}
+
+/*======= Custom Container =======*/
+.container-1278 {
+    max-width: 1278px;
+}
+
+/*======= Background & Colors =======*/
+.color-bg-primary {
+    background-color: rgb($color-primary-rgb / 0.04);
+}
