@@ -1,154 +1,32 @@
 // Font Family
 $font-family: (
 	font-poppins: "'Poppins', sans-serif",
-	font-raleway: "'Raleway', sans-serif",
-	font-roboto: "'Roboto', sans-serif",
+	font-montserrat: "'Montserrat', sans-serif",
 );
 
 $font-poppins: var(--font-poppins);
-$font-raleway: var(--font-raleway);
-$font-roboto: var(--font-roboto);
+$font-montserrat: var(--font-montserrat);
 
 // Color
 $colors: (
-	color-primary: #475dff,
-	color-primary-2: #3e6ee8,
-	color-primary-3: #475dff,
-	color-primary-4: #455bfa,
-	color-primary-5: #2d41d3,
-	color-primary-6: #496bf1,
-	color-primary-7: #1a34f5,
-	color-primary-8: #704aec,
-	color-primary-9: #2c75e4,
-	color-primary-rgb: 71 93 255,
-	color-primary-rgb-2: 44 117 228,
-	color-secondary: #3aa8cb,
-	color-secondary-2: #bef0eb,
-	color-secondary-3: #81f2cb,
-	color-secondary-4: #7cb799,
-	color-secondary-5: #00df76,
-	color-secondary-rgb: 23 209 144,
-	color-secondary-rgb-2: 124 183 153,
-	color-white: #fff,
-	color-white-2: #fefefe,
-	color-soft-white: #eeeeee,
-	color-soft-white-2: #f3f3f3,
-	color-soft-white-3: #fbfbfb,
-	color-soft-white-4: #e5e5e5,
-	color-soft-white-5: #cecece,
-	color-body: #333333,
-	color-body-rgb: 51 51 51,
-	color-dark: #1e1e1e,
-	color-dark-2: #0f0f0f,
-	color-dark-3: #141414,
-	color-dark-4: #343041,
-	color-dark-5: #151417,
-	color-gray: #666666,
-	color-gray-rgb: 102 102 102,
-	color-gray-2: #555555,
-	color-gray-3: #999999,
-	color-gray-4: #96a6a7,
-	color-gray-5: #646f75,
-	color-gray-6: #525252,
-	color-supernova: #fec800,
-	color-supernova-2: #ffc61c,
-	color-supernova-3: #f19e1f,
-	color-supernova-4: #fff1c9,
-	color-supernova-5: #ffd96c,
-	color-supernova-6: #ffb83e,
-	color-supernova-rgb: 254 200 0,
-	color-green: #17d292,
-	color-green-2: #0d8059,
-	color-green-3: #5f9573,
-	color-green-4: #00ab5e,
-	color-green-rgb: 13 128 89,
-	color-astronaut-blue: #0f405b,
-	color-astronaut-blue-2: #055f60,
-	color-astronaut-blue-rgb: 5 95 96,
-	color-off-white: #f8f8f8,
-	color-off-white-2: #ddeeff,
-	color-off-white-3: #e2e2e2,
-	color-off-white-4: #e1e2e3,
-	color-off-white-5: #d9d9d9,
+	color-red: #DA0037,
 	color-black: #000,
+	color-dark-black: #03031C,
+	color-dark-black-2: #040528,
+	color-white: #fff,
+	color-off-white: #F2F4F6,
+	color-gray: #C0C0C0,
 	color-black-rgb: 0 0 0,
-	color-white-rgb: 255 255 255,
-	color-pink: #ff846c,
-	color-pink-2: #ff6767,
-	color-pink-3: #de6283,
-	plyr-color-main: #7cb799,
 );
 
-$color-primary: var(--color-primary);
-$color-primary-2: var(--color-primary-2);
-$color-primary-3: var(--color-primary-3);
-$color-primary-4: var(--color-primary-4);
-$color-primary-5: var(--color-primary-5);
-$color-primary-6: var(--color-primary-6);
-$color-primary-7: var(--color-primary-7);
-$color-primary-8: var(--color-primary-8);
-$color-primary-9: var(--color-primary-9);
-$color-primary-rgb: var(--color-primary-rgb);
-$color-primary-rgb-2: var(--color-primary-rgb-2);
-$color-primary-gradient: var(--color-primary-gradient);
-$color-primary-gradient-2: var(--color-primary-gradient-2);
-$color-primary-gradient-3: var(--color-primary-gradient-3);
-$color-primary-gradient-4: var(--color-primary-gradient-4);
-$color-secondary: var(--color-secondary);
-$color-secondary-2: var(--color-secondary-2);
-$color-secondary-3: var(--color-secondary-3);
-$color-secondary-4: var(--color-secondary-4);
-$color-secondary-5: var(--color-secondary-5);
-$color-secondary-rgb: var(--color-secondary-rgb);
-$color-secondary-rgb-2: var(--color-secondary-rgb-2);
-$color-white: var(--color-white);
-$color-white-2: var(--color-white-2);
-$color-soft-white: var(--color-soft-white);
-$color-soft-white-2: var(--color-soft-white-2);
-$color-soft-white-3: var(--color-soft-white-3);
-$color-soft-white-4: var(--color-soft-white-4);
-$color-soft-white-5: var(--color-soft-white-5);
-$color-dark: var(--color-dark);
-$color-dark-2: var(--color-dark-2);
-$color-dark-3: var(--color-dark-3);
-$color-dark-4: var(--color-dark-4);
-$color-dark-5: var(--color-dark-5);
-$color-body: var(--color-body);
-$color-body-rgb: var(--color-body-rgb);
-$color-gray: var(--color-gray);
-$color-gray-rgb: var(--color-gray-rgb);
-$color-gray-2: var(--color-gray-2);
-$color-gray-3: var(--color-gray-3);
-$color-gray-4: var(--color-gray-4);
-$color-gray-5: var(--color-gray-5);
-$color-gray-6: var(--color-gray-6);
-$color-supernova: var(--color-supernova);
-$color-supernova-rgb: var(--color-supernova-rgb);
-$color-supernova-2: var(--color-supernova-2);
-$color-supernova-3: var(--color-supernova-3);
-$color-supernova-4: var(--color-supernova-4);
-$color-supernova-5: var(--color-supernova-5);
-$color-supernova-6: var(--color-supernova-6);
-$color-green: var(--color-green);
-$color-green-2: var(--color-green-2);
-$color-green-3: var(--color-green-3);
-$color-green-4: var(--color-green-4);
-$color-green-rgb: var(--color-green-rgb);
-$color-astronaut-blue: var(--color-astronaut-blue);
-$color-astronaut-blue-2: var(--color-astronaut-blue-2);
-$color-astronaut-blue-rgb: var(--color-astronaut-blue-rgb);
-$color-off-white: var(--color-off-white);
-$color-off-white-2: var(--color-off-white-2);
-$color-off-white-3: var(--color-off-white-3);
-$color-off-white-4: var(--color-off-white-4);
-$color-off-white-5: var(--color-off-white-5);
+$color-red: var(--color-red);
 $color-black: var(--color-black);
+$color-dark-black: var(--color-dark-black);
+$color-dark-black-2: var(--color-dark-black-2);
+$color-white: var(--color-white);
+$color-off-white: var(--color-off-white);
+$color-gray: var(--color-gray);
 $color-black-rgb: var(--color-black-rgb);
-$color-white-rgb: var(--color-white-rgb);
-$color-pink: var(--color-pink);
-$color-pink-2: var(--color-pink-2);
-$color-pink-3: var(--color-pink-3);
-$plyr-color-main: var(--plyr-color-main);
 
 // Breakpoints.
 $breakpoints: (

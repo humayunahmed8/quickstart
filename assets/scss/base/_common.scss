@@ -10,11 +10,12 @@
 }
 
 body {
-    color: $color-body;
-    font-family: $font-poppins;
+    background-color: $color-dark-black;
+    color: $color-white;
+    font-family: $font-montserrat;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 1.8;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 * {
@@ -34,14 +35,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $font-poppins;
+    font-family: $font-montserrat;
     font-weight: 700;
     line-height: 1.5;
-    color: $color-body;
+    color: $color-white;
     margin: 0px;
-
     a {
-        color: $color-body;
+        color: $color-white;
     }
 }
 
@@ -73,25 +73,8 @@ span {
 
 /*======= Common Classes =======*/
 
-.slick-slide img {
-    display: inline-block;
-}
-.rounded-15 {
-    border-radius: 15px;
-}
-.border-soft-white {
-    border: 1px solid $color-soft-white;
-}
-.shadow-none {
-    box-shadow: none;
-}
 
 /*======= Custom Container =======*/
-.container-1278 {
-    max-width: 1278px;
-}
+
 
 /*======= Background & Colors =======*/
-.color-bg-primary {
-    background-color: rgb($color-primary-rgb / 0.04);
-}

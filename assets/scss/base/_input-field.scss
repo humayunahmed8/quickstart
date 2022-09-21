@@ -48,7 +48,7 @@ textarea,
     padding: 0;
     background-color: transparent;
     border: none;
-    color: $color-dark-2;
+    color: $color-white;
     border-radius: 0;
     font-size: 14px;
     font-weight: 500;
@@ -73,7 +73,7 @@ textarea {
         border: none;
         border-radius: 5px;
         box-shadow: -10px 10px 35px rgb($color-black-rgb / 5%);
-        border: 1px solid $color-soft-white;
+        border: 1px solid $color-white;
 
         .option {
             padding: 10px 18px;
@@ -101,7 +101,7 @@ textarea {
             }
 
             &:not(:last-child) {
-                border-bottom: 1px solid $color-soft-white;
+                border-bottom: 1px solid $color-white;
             }
         }
     }
